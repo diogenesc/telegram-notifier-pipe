@@ -3,6 +3,7 @@
 
 A bitbucket custom pipe to send Telegram notifications.
 
+[Docker Hub](https://hub.docker.com/r/diogenesc/telegram-notifier-pipe)
 
 ## Usage
 
