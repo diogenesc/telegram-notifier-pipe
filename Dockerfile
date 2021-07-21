@@ -1,8 +1,9 @@
-FROM python:alpine3.13
+FROM python:3.8-slim
 
-WORKDIR /app
-COPY . .
-
+COPY requirements.txt /
+WORKDIR /
 RUN pip install --no-cache-dir -r requirements.txt
 
-ENTRYPOINT ["python", "pipe.py"]
+COPY . /
+
+ENTRYPOINT ["python3", "/pipe.py"]
