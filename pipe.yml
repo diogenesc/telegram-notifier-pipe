@@ -1,0 +1,22 @@
+name: Telegram Notifier Pipe
+image: diogenesc/telegram-notifier-pipe
+category: Notifications
+description: A Bitbucket custom pipe to send Telegram notifications.
+variables:
+  - name: TELEGRAM_BOT_TOKEN
+    default: '${TELEGRAM_BOT_TOKEN}'
+  - name: TELEGRAM_CHAT_ID
+    default: '${TELEGRAM_CHAT_ID}'
+repository: https://github.com/diogenesc/telegram-notifier-pipe/
+maintainer:
+  name: Diógenes Castro
+  website: https://diogenesc.com
+  email: contato@diogenesc.com
+vendor:
+  name: Diógenes Castro
+  website: https://diogenesc.com
+  email: contato@diogenesc.com
+tags:
+  - telegram
+  - notification
+  - docker
